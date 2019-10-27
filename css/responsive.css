@@ -1,0 +1,186 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+    .header_top_area {
+        font-size: 12px;
+    }
+    .single_slide_item h2 {
+        font-size: 50px;
+    }
+}
+/* Tablet & mobile Layout: 768px. */
+@media only screen and (max-width: 991px) { 
+  .header_top_area, .header_top_area .text-right, .logo, .mainmenu ul {
+    font-size: 12px;
+    text-align: center !important;
+}
+.mainmenu ul li a {
+    padding: 9px 9px;
+}
+
+.mainmenu li ul {
+    top: 80px;
+}
+
+.mainmenu li:hover ul {
+    top: 35px;
+}
+
+.single_slide_item h2 {
+    font-size: 40px;
+}
+
+.single_slide_item {
+    text-align: center;
+    font-size: 17px;
+}
+.factorysite_cta_area, .factorysite_cta_area .text-right {
+    text-align: center;
+}
+
+.factorysite_cta_area .text-right a {
+    font-size: 8px;
+    padding: 3px 16px;
+}
+
+.who_we_are_text {
+    padding: 20px 0;
+}
+.factorysite_cta_area h2 {
+    font-size: 15px;
+    margin-top: 10px;
+}
+.padding_left_60 {
+    margin-top: 30px;
+}
+.footer_widget {
+    padding-bottom: 0;
+    padding-top: 50px;
+}
+
+.footer_top_area {
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ 
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+    .header_top_area, .header_top_area .text-right{
+        font-size: 12px;
+        text-align: center !important;
+    }
+    .mainmenu{
+        display: none;
+    }
+    
+    .single_slide_item h2 {
+        font-size: 25px;
+    }
+    
+    .single_slide_item {
+        text-align: center;
+        font-size: 15px;
+    }
+    .factorysite_cta_area, .factorysite_cta_area .text-right {
+        text-align: center;
+    }
+    
+    .factorysite_cta_area .text-right a {
+        font-size: 8px;
+        padding: 3px 16px;
+    }
+    
+    .who_we_are_text {
+        padding: 20px 0;
+    }
+    .factorysite_cta_area h2 {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .padding_left_60 {
+        margin-top: 30px;
+    }
+    .footer_widget {
+        padding-bottom: 0;
+        padding-top: 50px;
+    }
+    
+    .footer_top_area {
+        padding-bottom: 50px;
+        padding-top: 30px;
+    }
+    .logo {
+        text-align: left !important;
+    }
+    
+    .responsive_menu_wrap {
+        display: block;
+        position: absolute;
+        right: 16px;
+        top: 50%;
+        margin-top: -15px;
+    }
+    
+    
+    
+    .mainmenu_area {
+        position: relative;
+        z-index: 9;
+    }
+    
+    .responsive_menu_wrap .slicknav_menu {background: none;padding: 0;}
+    
+    .slicknav_btn {
+        margin: 0;
+    }
+    
+    .slicknav_nav {
+        width: 200px;
+        background-color: #333;
+        border-radius: 2px;
+    }
+    .single_slide_item {
+        height: 400px;
+    }
+    
+    .homepage_slides .owl-nav div {
+        position: relative;
+        display: inline-block;
+        color: #333;
+        margin: 0;
+        border: 1px solid;
+    }
+    
+    .homepage_slides .owl-nav {
+        text-align: center;
+        margin-top: 5px;
+    }
+    
+    .homepage_slides .owl-nav div.owl-next,.homepage_slides .owl-nav div {
+        left: auto;
+        right: auto;
+        margin: 10px;
+    }
+    
+    .single_service_item {
+        margin-bottom: 50px;
+    }
+    
+    .factorysite_cta_area a {
+        margin-right: 33%;
+        margin-left: -30%;
+    }
+    
+    .factorysite_cta_area h2 {
+        margin-bottom: 13px;
+    }
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+   
+}
