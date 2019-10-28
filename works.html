@@ -12,14 +12,24 @@
     <link rel="stylesheet" href="css/fontawesome/css/font-awesome.min.css" />
     <!-- css file -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/magnafic.css" />
     <link rel="stylesheet" href="css/owl.carousel.min.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/slicknav.min.css" />
     <link rel="stylesheet" href="css/responsive.css" />
 </head>
 
 <body>
     <!-- start -->
     <!-- header area -->
+    <div class="factory_site_preloader_wrap">
+        <div class="spinner-2">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+    </div>
     <section class="header_top_area">
         <div class="container">
             <div class="row">
@@ -48,16 +58,27 @@
                             <h1>Factorysite</h1>
                         </a>
                     </div>
+                    <div class="responsive_menu_wrap"></div>
                 </div>
                 <div class="col-md-9">
                     <div class="mainmenu">
                         <ul id="navigation">
-                            <li><a href="">Home</a></li>
-                            <li><a href="">About</a></li>
-                            <li><a href="">Project</a></li>
-                            <li><a href="">News</a></li>
-                            <li><a href="">Shop</a></li>
-                            <li><a href="">Contact</a></li>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="service.html">Services</a></li>
+                            <li><a href="works.html">Works</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="#">Pages</a>
+                                <ul>
+                                    <li><a href="404.html">404 Not Found</a></li>
+                                    <li><a href="single-service.html">Single Service</a></li>
+                                    <li><a href="single-post.html">Single Blog</a></li>
+                                    <li><a href="shop.html">Shop</a></li>
+                                    <li><a href="cart.html">Cart</a></li>
+                                    <li><a href="checkout.html">Checkout</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="contact.html">Contact Us</a></li>
                         </ul>
                     </div>
                     <div class="header_search_bar">
@@ -90,22 +111,22 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <a href="" class="single_boxed_item">
+                    <a href="" class="single_boxed_item wow fadeInLeft">
                         <div class="boxed_preview blog_bg_1"></div>
                         <h4>Our Project Name</h4>
                         Manufacturing
                     </a>
                 </div>
                 <div class="col-md-4">
-                    <a href="" class="single_boxed_item">
-                        <div class="boxed_preview blog_bg_1"></div>
+                    <a href="" class="single_boxed_item wow fadeInDown">
+                        <div class="boxed_preview blog_bg_2"></div>
                         <h4>Our Project Name</h4>
                         Manufacturing
                     </a>
                 </div>
                 <div class="col-md-4">
-                    <a href="" class="single_boxed_item">
-                        <div class="boxed_preview blog_bg_1"></div>
+                    <a href="" class="single_boxed_item wow fadeInRight">
+                        <div class="boxed_preview blog_bg_3"></div>
                         <h4>Our Project Name</h4>
                         Manufacturing
                     </a>
@@ -115,22 +136,22 @@
 
             <div class="row">
                 <div class="col-md-4">
-                    <a href="" class="single_boxed_item">
-                        <div class="boxed_preview blog_bg_1"></div>
+                    <a href="" class="single_boxed_item wow fadeInLeft">
+                        <div class="boxed_preview blog_bg_4"></div>
                         <h4>Our Project Name</h4>
                         Manufacturing
                     </a>
                 </div>
                 <div class="col-md-4">
-                    <a href="" class="single_boxed_item">
-                        <div class="boxed_preview blog_bg_1"></div>
+                    <a href="" class="single_boxed_item wow fadeInUp">
+                        <div class="boxed_preview blog_bg_5"></div>
                         <h4>Our Project Name</h4>
                         Manufacturing
                     </a>
                 </div>
                 <div class="col-md-4">
-                    <a href="" class="single_boxed_item">
-                        <div class="boxed_preview blog_bg_1"></div>
+                    <a href="" class="single_boxed_item wow fadeInRight">
+                        <div class="boxed_preview blog_bg_6"></div>
                         <h4>Our Project Name</h4>
                         Manufacturing
                     </a>
@@ -142,11 +163,11 @@
     <!-- blog area end -->
 
     <!-- footer area -->
-    <footer class="site_footer">
+    <footer class="site_footer wow fadeIn">
         <div class="footer_top_area">
             <div class="container">
                 <div class="row">
-                    <div class="col-3">
+                    <div class="col-md-3">
                         <div class="footer_widget">
                             <h2 class="footer_logo">Factorysite</h2>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam atque asperiores saepe
@@ -154,7 +175,7 @@
                                 assumenda quam ad, saepe dolore pariatur eum possimus!</p>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-md-3">
                         <div class="footer_widget">
                             <h3 class="footer_widge_title">Social Links</h3>
                             <ul>
@@ -167,7 +188,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-md-3">
                         <div class="footer_widget">
                             <h3 class="footer_widge_title">Social Links</h3>
                             <ul>
@@ -180,7 +201,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-md-3">
                         <div class="footer_widget">
                             <h3 class="footer_widge_title">Contect Us</h3>
                             <p>Pennsylvania Ave</br>
@@ -202,6 +223,7 @@
             </div>
         </div>
     </footer>
+    <a href="#" class="back-to-top"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
     <!-- footer area end -->
 
     <!-- end -->
@@ -210,6 +232,10 @@
     <script src="js/jquary.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
+    <script src="js/Magnific.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/easing.min.js"></script>
     <script src="js/jquery.sticky.js"></script>
     <script src="js/jquery.scrolly.js"></script>
     <!-- main java script -->

@@ -71,6 +71,15 @@ body{
 .blog_bg_3{
     background-image: url(../img/blog-user-3.jpg);
 }
+.blog_bg_4{
+    background-image: url(../img/code-1.jpg);
+}
+.blog_bg_5{
+    background-image: url(../img/code-2.jpg);
+}
+.blog_bg_6{
+    background-image: url(../img/code-3.jpg);
+}
 .teams_bg_1{
     background-image: url(../img/1.jpg);
 }
@@ -882,3 +891,27 @@ a.service_readmore_btn i.fa {
 .responsive_menu_wrap{
     display: none;
 }
+/* scroll to top */
+.back-to-top {
+    position: fixed;
+    display: none;
+    background: #3EC1D5;
+    color: #fff;
+    padding: 6px 12px 9px 12px;
+    font-size: 16px;
+    border-radius: 2px;
+    right: 15px;
+    bottom: 15px;
+    transition: background 0.5s;
+  }
+  
+  .back-to-top:focus {
+    background: #3EC1D5;
+    color: #fff;
+    outline: none;
+  }
+  
+  .back-to-top:hover {
+    background: #3cd6ed;
+    color: #fff;
+  }

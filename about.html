@@ -12,7 +12,10 @@
     <link rel="stylesheet" href="css/fontawesome/css/font-awesome.min.css" />
     <!-- css file -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/magnafic.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/slicknav.min.css">
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
 </head>
@@ -20,6 +23,13 @@
 <body>
     <!-- start -->
     <!-- header area -->
+    <div class="factory_site_preloader_wrap">
+        <div class="spinner-2">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+    </div>
     <section class="header_top_area">
         <div class="container">
             <div class="row">
@@ -48,16 +58,27 @@
                             <h1>Factorysite</h1>
                         </a>
                     </div>
+                    <div class="responsive_menu_wrap"></div>
                 </div>
                 <div class="col-md-9">
                     <div class="mainmenu">
                         <ul id="navigation">
-                            <li><a href="">Home</a></li>
-                            <li><a href="">About</a></li>
-                            <li><a href="">Project</a></li>
-                            <li><a href="">News</a></li>
-                            <li><a href="">Shop</a></li>
-                            <li><a href="">Contact</a></li>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="service.html">Services</a></li>
+                            <li><a href="works.html">Works</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="#">Pages</a>
+                                <ul>
+                                    <li><a href="404.html">404 Not Found</a></li>
+                                    <li><a href="single-service.html">Single Service</a></li>
+                                    <li><a href="single-post.html">Single Blog</a></li>
+                                    <li><a href="shop.html">Shop</a></li>
+                                    <li><a href="cart.html">Cart</a></li>
+                                    <li><a href="checkout.html">Checkout</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="contact.html">Contact Us</a></li>
                         </ul>
                     </div>
                     <div class="header_search_bar">
@@ -72,7 +93,7 @@
     <!-- mainmenu area end -->
 
     <!-- blog area -->
-    <section class="factorysite_content_block factorysite_breadcrumb section_gray">
+    <section class="factorysite_content_block factorysite_breadcrumb section_gray boto-spacer-25">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -89,7 +110,7 @@
     <section class="factorysite_content_block factorysite_breadcrumb section_gray">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 wow fadeInLeft">
                     <h3>It's time to learn more about</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero aliquid veritatis consequatur
                         maxime non soluta aut officiis aspernatur saepe necessitatibus corporis dolore provident ullam,
@@ -101,7 +122,7 @@
                         omnis quibusdam obcaecati repudiandae eaque!</p>
                 </div>
                 <div class="col-md-6">
-                    <div class="padding_left_60">
+                    <div class="padding_left_60 wow fadeInRight">
                         <div class="embed-responsive embed-responsive-16by9">
                             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/2J8bdwO2bro?rel=0"
                                 allowfullscreen></iframe>
@@ -114,10 +135,10 @@
 
             <div class="row">
                 <div class="col-md-4">
-                    <img src="img/member-img-1.jpg" alt="">
+                    <img class="wow fadeInLeft" src="img/member-img-1.jpg" alt="">
                 </div>
                 <div class="col-md-5">
-                    <div class="who_we_are_text">
+                    <div class="who_we_are_text wow fadeInUp">
                         <h3>Who We Are?</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem eius odio ad maiores.
                             Perferendis earum illum alias rerum doloremque sequi labore. Repellat et, minima cupiditate
@@ -128,21 +149,21 @@
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <img src="img/member-img-4.jpg" alt="">
+                    <img class="wow fadeInRight" src="img/member-img-4.jpg" alt="">
                 </div>
             </div>
 
             <div class="spacer_85"></div>
 
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 wow fadeInLeft">
                     <h3>How To Start Our Journey</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis explicabo enim eligendi beatae
                         culpa exercitationem quae repellat reprehenderit cupiditate quod dolor qui dolorem quas debitis,
                         natus cum, quibusdam quam unde iste inventore quidem. Non, perferendis. Quod nemo a sint
                         architecto mollitia error in ipsam incidunt!</p>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 wow fadeInRight">
                     <h3>How To Start Our Journey</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis explicabo enim eligendi beatae
                         culpa exercitationem quae repellat reprehenderit cupiditate quod dolor qui dolorem quas debitis,
@@ -162,39 +183,39 @@
             </div>
 
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-12 col-sm-12">
                     <div class="teams_wrapper">
-                        <div class="single_teams_item teams_bg_1">
+                        <div class="single_teams_item teams_bg_1 wow fadeInDown">
                             <div class="team_info_hover">
                                 <h3>David Jon</h3>
                                 Project Manager
                             </div>
                         </div>
-                        <div class="single_teams_item teams_bg_2">
+                        <div class="single_teams_item teams_bg_2 wow fadeInDown">
                             <div class="team_info_hover">
                                 <h3>Jon Weliam</h3>
                                 Project Manager
                             </div>
                         </div>
-                        <div class="single_teams_item teams_bg_3">
+                        <div class="single_teams_item teams_bg_3 wow fadeInDown">
                             <div class="team_info_hover">
                                 <h3>Lina</h3>
                                 Project Manager
                             </div>
                         </div>
-                        <div class="single_teams_item teams_bg_4">
+                        <div class="single_teams_item teams_bg_4 wow fadeInUp">
                             <div class="team_info_hover">
                                 <h3>MD. Tanjim Ahmmed</h3>
                                 Project Manager
                             </div>
                         </div>
-                        <div class="single_teams_item teams_bg_5">
+                        <div class="single_teams_item teams_bg_5 wow fadeInUp">
                             <div class="team_info_hover">
                                 <h3>Tanjum Arena</h3>
                                 Project Manager
                             </div>
                         </div>
-                        <div class="single_teams_item teams_bg_6">
+                        <div class="single_teams_item teams_bg_6 wow fadeInUp">
                             <div class="team_info_hover">
                                 <h3>Micky Areo</h3>
                                 Project Manager
@@ -208,11 +229,11 @@
     <!-- blog area end -->
 
     <!-- footer area -->
-    <footer class="site_footer">
+    <footer class="site_footer wow fadeIn">
         <div class="footer_top_area">
             <div class="container">
                 <div class="row">
-                    <div class="col-3">
+                    <div class="col-md-3">
                         <div class="footer_widget">
                             <h2 class="footer_logo">Factorysite</h2>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam atque asperiores saepe
@@ -220,7 +241,7 @@
                                 assumenda quam ad, saepe dolore pariatur eum possimus!</p>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-md-3">
                         <div class="footer_widget">
                             <h3 class="footer_widge_title">Social Links</h3>
                             <ul>
@@ -233,7 +254,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-md-3">
                         <div class="footer_widget">
                             <h3 class="footer_widge_title">Social Links</h3>
                             <ul>
@@ -246,7 +267,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-md-3">
                         <div class="footer_widget">
                             <h3 class="footer_widge_title">Contect Us</h3>
                             <p>Pennsylvania Ave</br>
@@ -268,6 +289,7 @@
             </div>
         </div>
     </footer>
+    <a href="#" class="back-to-top"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
     <!-- footer area end -->
 
     <!-- end -->
@@ -277,6 +299,10 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/jquery.sticky.js"></script>
+    <script src="js/easing.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="js/Magnific.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/jquery.scrolly.js"></script>
     <!-- main java script -->
     <script src="js/main.js"></script>
